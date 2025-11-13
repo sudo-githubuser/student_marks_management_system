@@ -30,7 +30,6 @@ public class NameMarksGenerator {
             int marks = getStudentMarks();
             studentNameAndMarks.put(name, marks);
         }
-        //studentNameAndMarks.forEach((k, v) -> System.out.println(k + " → " + v));
         return studentNameAndMarks;
     }
 }
